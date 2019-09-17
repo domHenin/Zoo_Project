@@ -1,10 +1,10 @@
 package io.migenjutsu.project;
 
-public abstract class Zoo {
+public class Zoo {
     private String zooType;
 
-    abstract void numberOfAnimals();
-
+// add animal array
+// add worker array
 
 //SETTERS:
 
