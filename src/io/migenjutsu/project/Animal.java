@@ -1,6 +1,6 @@
 package io.migenjutsu.project;
 
-public class Animal extends Zoo {
+public class Animal {
     private int animalId;
     private String animalGroup; //list:: invertebrates, fish, amphibians, reptiles, birds, mammals
     private String animalType; //list:: small, medium, large
@@ -24,9 +24,4 @@ public class Animal extends Zoo {
     public String getAnimalType() { return animalType; }
     public int getAnimalId() { return animalId; }
     public String getAnimalName() { return animalName; }
-
-    @Override
-    void numberOfAnimals() {
-
-    }
 }
